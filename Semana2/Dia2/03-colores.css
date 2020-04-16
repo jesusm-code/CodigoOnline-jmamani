@@ -2,3 +2,13 @@
 h1{
     color: #30804F;
 }
+main p {
+    color: rgb(100, 200, 11);
+}
+
+h3{
+    color: rgb(41, 176, 249);
+}
+.rojo-transparente{
+    color rgba(255, 42, 223, 232);
+}

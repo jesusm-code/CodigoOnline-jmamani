@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background-color: #fbb446;
+}
+main {
+    height: 3000px;
+}
+#section-1{
+    height: 300px;
+    background-color: #FCD59A;
+    background-image: url('./Perrito.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#section-2{
+    height: 700px;
+    background-image: url('./textura.png');
+    background-repeat: repeat;
+}
+#section-3{
+    height: 500px;
+    background-image: url('./frutas.jpg');
+    background-attachment: fixed;
+    /*padding-top: 210px;*/
+}
+#section-3 h2{
+    padding-top: 210px;
+    text-align: center;
+    font-family: cursive;
+    color: khaki;
+    font-size: 40px;
+    height: 500px;
+    background-color: rgba(0, 0, 0,  0.7);
+}
+#section-4{
+
+}

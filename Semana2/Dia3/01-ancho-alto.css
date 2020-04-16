@@ -1,0 +1,47 @@
+/* eliminar parrafos */
+
+*{
+    margin: 0;
+}
+
+header {
+    background-color: coral;
+}
+h1{
+    background-color: crimson;
+}
+body{
+    background-color: lightcyan;
+}
+main{
+    width: 50%;
+    background-color: lightcoral;
+    height: 600px;
+}
+.section-1{
+    background-color: darkgreen;
+    color: #ADFDAD;
+    width: 50%;
+    }
+.section-2{
+    background-color: darkred;
+    color: #FB8585;
+    width: 50%;
+    height: 100PX;
+    /* overflow : deterina que se hara con el contenido extra al tamaño del contenedor */
+    /* Hidden = oculta el contenido que rebalsa */
+    /* scroll = dibuja el scroll en el contenedor, rebalse o no el contenedor */
+    /* auto = */
+    /*overflow: auto;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+footer{
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer>p {
+    text-align: center;
+
+}
