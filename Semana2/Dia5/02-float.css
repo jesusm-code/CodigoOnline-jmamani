@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: teal;
@@ -16,7 +16,7 @@ header{
     width: 140px;
     height: 50px;
     float: left;
-    background-color: tomato;
+    background-color: yellow;
 }
 #caja-2{
     width: 140px;
@@ -27,23 +27,46 @@ header{
 #caja-3{
     width: 140px;
     height: 50px;
-    float: right;
-    background-color: tomato;
+    float: left;
+    background-color: green;
 }
 #caja-4{
     width: 140px;
     height: 50px;
-    float: right;
+    float: left;
     background-color: tomato;
 }
 #contenedor{
     background-color: tan;
     width: 600px;
 }
+#contenedor > div {
+    border: 1px solid blue;
+}
+
 .fix {
     clear: both;
 }
 
 #caja-1{
     float: left;
+}
+#navegacion{
+    background-color: crimson;
+    color: white;
+    /*text-align: center;*/
+}
+.navegacion-wraper{
+    margin: 0 auto;
+    background-color: green;
+    width: 600px;
+ 
+}
+.opcion-1, .opcion-2, .opcion-3 {
+    background-color: indigo;
+    width: 200px;
+    float: left;
+    /*display: inline-block;*/
+    text-align: center;
+    border: 0.5px solid yellow;
 }

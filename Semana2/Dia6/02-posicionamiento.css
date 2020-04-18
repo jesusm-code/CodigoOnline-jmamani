@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+#section-1 {
+    border: 1px solid red;
+    height: 500px;
+    margin: 40px;
+}
+
+.div-2{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+
+}
+
+.div-1{
+    background-color: indigo;
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    /* relative: el elemento conserva su posicion original, sin embargo, ya esta habiltado para moverse respecto de su PADRE*/
+    /* se puede usar referencias top y left 
+    -los hermanos del elemento relative, respetan su pocision*/
+    position: relative;
+    top: 20px;
+    left: 50%;
+    /* en traslate, cuando toma un porcentaje, lo hace respecto del tamaño de */
+    transform: translate(-50%, 0);
+}
+
+#section-2 {
+    border: 1px solid red;
+    height: 300px;
+    margin: 40px;
+    position: relative;
+}
+.div-3 {
+    /*border: 1px solid red;*/
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    /* absolute: se pociisona respecto del padre que tenga posicion reltiva - se puede usar las referencias bottom, top, left y right
+    -los hermanos del elemento absolute, ya no consideran su posicion como e caso del posicionamiento relative */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.div-4 {
+    /*border: 1px solid red;*/
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    
+}
+.div-fixed{
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+    /* FIXED: su unica referencia, es la ventana del navegador
+    -para ello, el elemento debe tener asignado dos valores de referencia, ejm: top y left , ejm:bottom y right*/
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}

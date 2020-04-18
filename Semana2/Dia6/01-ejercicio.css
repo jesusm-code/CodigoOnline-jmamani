@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: teal;
+    color: whitesmoke;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.aside-1{
+    width: 20%;
+    height: 830px;
+    background-color: yellow;
+}
+.section-1{
+    width: 60%;
+    height: 830px;
+    background-color: tomato;
+}
+.aside-2{
+    width: 20%;
+    height: 830px;
+    background-color: orange;
+}
+.aside-1, .section-1, .aside-2{
+    float: left;
+}
+.fix {
+    clear: both;
+}
