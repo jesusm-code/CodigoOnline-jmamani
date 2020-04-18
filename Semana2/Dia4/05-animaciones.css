@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#div-1 {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    /* Animation: nombre duracion funcion_de_tiempo delay nro_de _veces_a_repetir direccion fill_mode */
+    animation: cambiardecolores 2s ease 0s 1 normal none;
+}
+
+/*creando una animacion*/
+@keyframes cambiardecolores{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
